@@ -27,7 +27,7 @@ Methodologically this means vision transformers, multimodal fusion (imaging + ta
 | [Deep-Spatiotemporal-Modelling-of-Cardiomyocyte-Ageing-Dysfunction](https://github.com/datascintist-abusufian/Deep-Spatiotemporal-Modelling-of-Cardiomyocyte-Ageing-Dysfunction) | Optical-flow–driven detection of cardiomyocyte ageing dysfunction from microscopy video. Presented at BSCR/BCS (*Heart*, 2025). |
 | [Advanced-Cardiac-Electrophysiology-Mapping-](https://github.com/datascintist-abusufian/Advanced-Cardiac-Electrophysiology-Mapping-) | Automated signal windowing and parallel processing for cardiac electrophysiological mapping — research software, not a one-off notebook. |
 | [AI-Models-for-Early-Cardiovascular-Diseases-Detection-](https://github.com/datascintist-abusufian/AI-Models-for-Early-Cardiovascular-Diseases-Detection-) | Early detection and mortality prediction in cardiovascular disease — code behind *Diagnostics* 14(12), 1308 (2024). |
-| [Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-](https://github.com/datascintist-abusufian/Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-) | Domain-adaptive vision–language learning with structured caption supervision for medical imaging. |
+| [Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-](https://github.com/datascintist-abusufian/Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-) | Vision–language learning with structured clinical caption supervision — automated skin-lesion classification and melanoma detection. |
 | [Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD](https://github.com/datascintist-abusufian/Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD) | Multivariable survival modelling of EGFR copy number in lung adenocarcinoma. |
 
 ---
@@ -144,6 +144,7 @@ Kept for provenance; these predate the current research programme.
 ## Toolbox
 
 Python · PyTorch · MONAI · scikit-learn · OpenCV · R · MATLAB · Streamlit · Docker · Git · LaTeX
+
 Imaging: cardiac MRI, 3D echocardiography, OCT, live-cell microscopy, histopathology
 
 ## Contact

@@ -1,7 +1,7 @@
 # Md Abu Sufian
 
 **Explainable multimodal AI for Medical Imaging.**
-PhD researcher, School of Architecture, Computing and Engineering, University of East London — working on the Hi-CARE-Cardio project within the CHAI Programme. Hourly Paid Lecturer (UEL) and Institute of Structural Molecular Biology,Birkbeck-UCL, MSc Bioinformatics dissertation supervisor (Birkbeck, University of London). London, UK.
+PhD researcher, School of Architecture, Computing and Engineering, University of East London — working on the Hi-CARE-Cardio project within the CHAI Programme. Hourly Paid Lecturer (UEL) and Institute of Structural Molecular Biology, Birkbeck-UCL, MSc Bioinformatics dissertation supervisor (Birkbeck, University of London). London, UK.
 
 [Google Scholar](https://scholar.google.com/citations?user=8ozStcUAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Md-Abu-Sufian-2) · [LinkedIn](https://www.linkedin.com/in/tacticalbusinessintelligence) · [Personal-Website](https://abusufian.dev)
 
@@ -13,7 +13,7 @@ PhD researcher, School of Architecture, Computing and Engineering, University of
 
 **2. Cardiomyocyte ageing.** Motion and nuclear phenotyping of cardiomyocytes from microscopy time-series, using optical flow and temporal transformers to detect functional decline before it is morphologically obvious.
 
-**3. Explainability and clinical validation.** Post-hoc interpretability, algorithmic-bias auditing, and prospective validation of models against clinical endpoints — so that a model's output is defensible in a cardiology setting, not only accurate on a benchmark.
+**3. Explainability and clinical validation.** Post-hoc interpretability, algorithmic-bias auditing, and prospective validation of models against clinical endpoints — so that the output is defensible in a cardiology setting, not only accurate on a benchmark.
 
 Methodologically this means vision transformers, multimodal fusion (imaging + tabular + text), generative augmentation for small clinical cohorts, and survival/prognostic modelling.
 
@@ -21,14 +21,14 @@ Methodologically this means vision transformers, multimodal fusion (imaging + ta
 
 ## Start here
 
-| Repository | What it is |
-|---|---|
-| [triFuse-pytorch](https://github.com/datascintist-abusufian/triFuse-pytorch) | **TriFuse-SRNet** — dynamic multi-expert fusion with structural recovery for *scribble-supervised* cardiac MRI segmentation. Reference PyTorch implementation, ACDC + MSCMRseg, with training, evaluation and statistical-comparison scripts. |
-| [Deep-Spatiotemporal-Modelling-of-Cardiomyocyte-Ageing-Dysfunction](https://github.com/datascintist-abusufian/Deep-Spatiotemporal-Modelling-of-Cardiomyocyte-Ageing-Dysfunction) | Optical-flow–driven detection of cardiomyocyte ageing dysfunction from microscopy video. Presented at BSCR/BCS (*Heart*, 2025). |
-| [Advanced-Cardiac-Electrophysiology-Mapping-](https://github.com/datascintist-abusufian/Advanced-Cardiac-Electrophysiology-Mapping-) | Automated signal windowing and parallel processing for cardiac electrophysiological mapping — research software, not a one-off notebook. |
-| [AI-Models-for-Early-Cardiovascular-Diseases-Detection-](https://github.com/datascintist-abusufian/AI-Models-for-Early-Cardiovascular-Diseases-Detection-) | Early detection and mortality prediction in cardiovascular disease — code behind *Diagnostics* 14(12), 1308 (2024). |
-| [Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-](https://github.com/datascintist-abusufian/Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-) | Vision–language learning with structured clinical caption supervision — automated skin-lesion classification and melanoma detection. |
-| [Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD](https://github.com/datascintist-abusufian/Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD) | Multivariable survival modelling of EGFR copy number in lung adenocarcinoma. |
+| Project | What it is |
+|:--|:--|
+| <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1fac0.png" width="38" align="left" alt="cardiac"> **[triFuse-pytorch](https://github.com/datascintist-abusufian/triFuse-pytorch)** | **TriFuse-SRNet** — dynamic multi-expert fusion with structural recovery for *scribble-supervised* cardiac MRI segmentation. Reference PyTorch implementation, ACDC + MSCMRseg, with training, evaluation and statistical-comparison scripts. |
+| <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f52c.png" width="38" align="left" alt="microscopy"> **[Deep-Spatiotemporal-Modelling-of-Cardiomyocyte-Ageing-Dysfunction](https://github.com/datascintist-abusufian/Deep-Spatiotemporal-Modelling-of-Cardiomyocyte-Ageing-Dysfunction)** | Optical-flow–driven detection of cardiomyocyte ageing dysfunction from microscopy video. Presented at BSCR/BCS (*Heart*, 2025). |
+| <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/26a1.png" width="38" align="left" alt="electrophysiology"> **[Advanced-Cardiac-Electrophysiology-Mapping-](https://github.com/datascintist-abusufian/Advanced-Cardiac-Electrophysiology-Mapping-)** | Automated signal windowing and parallel processing for cardiac electrophysiological mapping — research software, not a one-off notebook. |
+| <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1fa7a.png" width="38" align="left" alt="clinical"> **[AI-Models-for-Early-Cardiovascular-Diseases-Detection-](https://github.com/datascintist-abusufian/AI-Models-for-Early-Cardiovascular-Diseases-Detection-)** | Early detection and mortality prediction in cardiovascular disease — code behind *Diagnostics* 14(12), 1308 (2024). |
+| <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f5bc.png" width="38" align="left" alt="vision-language"> **[Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-](https://github.com/datascintist-abusufian/Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-)** | Vision–language learning with structured clinical caption supervision — automated skin-lesion classification and melanoma detection. |
+| <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f9ec.png" width="38" align="left" alt="genomics"> **[Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD](https://github.com/datascintist-abusufian/Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD)** | Multivariable survival modelling of EGFR copy number in lung adenocarcinoma. |
 
 ---
 
@@ -48,7 +48,7 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUA
 ## Repositories by theme
 
 <details>
-<summary><b>Cardiac imaging and segmentation</b></summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1fac0.png" width="22" align="top"> <b>Cardiac imaging and segmentation</b></summary>
 
 - [triFuse-pytorch](https://github.com/datascintist-abusufian/triFuse-pytorch) — TriFuse-SRNet, scribble-supervised segmentation (ACDC, MSCMRseg)
 - [Cardiac-mri-scribble-segmentation](https://github.com/datascintist-abusufian/Cardiac-mri-scribble-segmentation) — weakly supervised segmentation from scribble labels
@@ -61,7 +61,7 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUA
 </details>
 
 <details>
-<summary><b>Cardiomyocyte ageing and cell-level phenotyping</b></summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f52c.png" width="22" align="top"> <b>Cardiomyocyte ageing and cell-level phenotyping</b></summary>
 
 - [Deep-Spatiotemporal-Modelling-of-Cardiomyocyte-Ageing-Dysfunction](https://github.com/datascintist-abusufian/Deep-Spatiotemporal-Modelling-of-Cardiomyocyte-Ageing-Dysfunction)
 - [Cardiomyocyte-cell-motion-analysis](https://github.com/datascintist-abusufian/Cardiomyocyte-cell-motion-analysis)
@@ -72,7 +72,7 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUA
 </details>
 
 <details>
-<summary><b>Research software and clinical tools</b></summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f6e0.png" width="22" align="top"> <b>Research software and clinical tools</b></summary>
 
 - [Advanced-Cardiac-Electrophysiology-Mapping-](https://github.com/datascintist-abusufian/Advanced-Cardiac-Electrophysiology-Mapping-) — automated signal windowing, parallel processing
 - [CardioMap-Pro-2.0-Advancing-Cardiac-Research-with-Next-Gen-Analytical-Software](https://github.com/datascintist-abusufian/CardioMap-Pro-2.0-Advancing-Cardiac-Research-with-Next-Gen-Analytical-Software)
@@ -83,7 +83,7 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUA
 </details>
 
 <details>
-<summary><b>Explainability, multimodal and foundation models</b></summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f50d.png" width="22" align="top"> <b>Explainability, multimodal and foundation models</b></summary>
 
 - [post-hoc-explainer](https://github.com/datascintist-abusufian/post-hoc-explainer) — Streamlit app for cardiovascular risk modelling with feature-importance, ROC and confusion-matrix diagnostics
 - [Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-](https://github.com/datascintist-abusufian/Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-)
@@ -94,7 +94,7 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUA
 </details>
 
 <details>
-<summary><b>Clinical prediction beyond cardiology</b></summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f9ec.png" width="22" align="top"> <b>Clinical prediction beyond cardiology</b></summary>
 
 - [Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD](https://github.com/datascintist-abusufian/Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD)
 - [TM-AHF-A-Text-Mining-a](https://github.com/datascintist-abusufian/TM-AHF-A-Text-Mining-a) — text mining plus vital signs for BNP/NT-proBNP-validated acute heart failure risk stratification
@@ -107,7 +107,7 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUA
 </details>
 
 <details>
-<summary><b>Fairness, health policy and population health</b></summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/2696.png" width="22" align="top"> <b>Fairness, health policy and population health</b></summary>
 
 - [-Cardiovascular-Health-Tackling-Algorithmic-Bias-in-ML-and-AI-Models](https://github.com/datascintist-abusufian/-Cardiovascular-Health-Tackling-Algorithmic-Bias-in-ML-and-AI-Models)
 - [Hypertension-Control-in-Resource-Constrained-Settings](https://github.com/datascintist-abusufian/Hypertension-Control-in-Resource-Constrained-Settings)
@@ -117,7 +117,7 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUA
 </details>
 
 <details>
-<summary><b>Earlier applied data science (pre-PhD)</b></summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4ca.png" width="22" align="top"> <b>Earlier applied data science (pre-PhD)</b></summary>
 
 Kept for provenance; these predate the current research programme.
 

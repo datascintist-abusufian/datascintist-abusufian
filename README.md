@@ -1,9 +1,9 @@
 # Md Abu Sufian
 
-**Explainable multimodal AI for cardiovascular imaging.**
-PhD researcher, School of Architecture, Computing and Engineering, University of East London — working on the Hi-CARE-Cardio project within the CHAI Programme. Hourly Paid Lecturer (UEL) and MSc Bioinformatics dissertation supervisor (Birkbeck, University of London). London, UK.
+**Explainable multimodal AI for Medical Imaging.**
+PhD researcher, School of Architecture, Computing and Engineering, University of East London — working on the Hi-CARE-Cardio project within the CHAI Programme. Hourly Paid Lecturer (UEL) and Institute of Structural Molecular Biology,Birkbeck-UCL, MSc Bioinformatics dissertation supervisor (Birkbeck, University of London). London, UK.
 
-[Google Scholar](https://scholar.google.com/citations?user=8ozStcUAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Md-Abu-Sufian-2) · [LinkedIn](https://www.linkedin.com/in/tacticalbusinessintelligence) · [Website](https://abusufian.dev)
+[Google Scholar](https://scholar.google.com/citations?user=8ozStcUAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Md-Abu-Sufian-2) · [LinkedIn](https://www.linkedin.com/in/tacticalbusinessintelligence) · [Personal-Website](https://abusufian.dev)
 
 ---
 

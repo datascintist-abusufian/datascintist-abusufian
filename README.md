@@ -3,7 +3,7 @@
 **Explainable Multimodal AI for Medical Imaging — Cardiovascular Imaging, Cancer Imaging and Cardiomyocyte Ageing.**
 PhD researcher in Computer Science at the University of East London, developing explainable and multimodal AI for medical imaging. The work spans three imaging domains: cardiovascular imaging (cardiac MRI, 3D echocardiography, optical electrophysiology mapping), cancer imaging (dermoscopy and melanoma detection, breast cancer detection and prognosis, brain-tumour MRI, lung adenocarcinoma survival modelling), and cardiomyocyte ageing from live-cell microscopy. Across all three I combine segmentation and detection architectures, spatiotemporal modelling, multimodal data fusion, and clinically relevant validation to produce interpretable models. I am also an Hourly Paid Lecturer at UEL and an MSc Bioinformatics Dissertation Supervisor at Birkbeck, University of London, within the Institute of Structural and Molecular Biology (Birkbeck–UCL). Based in London, UK.
 
-[Google Scholar](https://scholar.google.com/citations?user=8ozStcUAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Md-Abu-Sufian-2) · [LinkedIn](https://www.linkedin.com/in/tacticalbusinessintelligence) · [Personal-Website](https://abusufian.dev)
+[Google Scholar](https://scholar.google.com/citations?user=8ozStcUAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Md-Abu-Sufian-2) · [LinkedIn](https://www.linkedin.com/in/tacticalbusinessintelligence) · [Personal-Website](https://abusufian.dev) · [ORCID](https://orcid.org/0009-0007-3503-6942)
 
 ---
 
@@ -63,7 +63,9 @@ Every modality below links to the repository where it is actually used, so the c
 - **Hypertension control in resource-constrained settings: bridging socioeconomic gaps with predictive insights.** *IJC Cardiovascular Risk and Prevention* (2025).
 - **Advanced transformer-based AI framework for early detection and prediction of cardiomyocyte ageing and injury using motion phenotyping.** *Heart* 111 (Suppl 3), A269–A271 (2025).
 
-Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUAAAAJ&hl=en). I also hold patents registered with the UK Intellectual Property Office.
+Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUAAAAJ&hl=en). ORCID: [0009-0007-3503-6942](https://orcid.org/0009-0007-3503-6942).
+
+**Patent.** 6426513 - *Blockchain based health monitoring device*, registered with the UK Intellectual Property Office.
 
 ---
 

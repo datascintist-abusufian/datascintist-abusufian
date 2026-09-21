@@ -1,7 +1,7 @@
 # Md Abu Sufian
 
-**Explainable Multimodal AI for Cardiac Imaging and Cardiomyocyte Ageing.**
-PhD researcher in Computer Science at the University of East London, developing explainable and multimodal AI for cardiac imaging, cardiomyocyte ageing, and cardiovascular disease research. My work combines medical imaging, microscopy, spatiotemporal modelling, multimodal data fusion, and clinically relevant validation to develop interpretable AI for cardiovascular research. I am also an Hourly Paid Lecturer at UEL and an MSc Bioinformatics Dissertation Supervisor at Birkbeck, University of London, within the Institute of Structural and Molecular Biology (Birkbeck–UCL). Based in London, UK.
+**Explainable Multimodal AI for Medical Imaging — Cardiovascular Imaging, Cancer Imaging and Cardiomyocyte Ageing.**
+PhD researcher in Computer Science at the University of East London, developing explainable and multimodal AI for medical imaging. The work spans three imaging domains: cardiovascular imaging (cardiac MRI, 3D echocardiography, optical electrophysiology mapping), cancer imaging (dermoscopy and melanoma detection, breast cancer detection and prognosis, brain-tumour MRI, lung adenocarcinoma survival modelling), and cardiomyocyte ageing from live-cell microscopy. Across all three I combine segmentation and detection architectures, spatiotemporal modelling, multimodal data fusion, and clinically relevant validation to produce interpretable models. I am also an Hourly Paid Lecturer at UEL and an MSc Bioinformatics Dissertation Supervisor at Birkbeck, University of London, within the Institute of Structural and Molecular Biology (Birkbeck–UCL). Based in London, UK.
 
 [Google Scholar](https://scholar.google.com/citations?user=8ozStcUAAAAJ&hl=en) · [ResearchGate](https://www.researchgate.net/profile/Md-Abu-Sufian-2) · [LinkedIn](https://www.linkedin.com/in/tacticalbusinessintelligence) · [Personal-Website](https://abusufian.dev)
 
@@ -9,13 +9,33 @@ PhD researcher in Computer Science at the University of East London, developing 
 
 ## What I work on
 
-**1. Cardiac image analysis.** Transformer and hybrid CNN–RNN architectures for cardiac MRI and 3D echocardiography — segmentation, structural analysis, and label-efficient training from scribble annotations.
+**1. Cardiovascular imaging.** Transformer and hybrid CNN–RNN architectures for cardiac MRI and 3D echocardiography — segmentation, structural analysis, and label-efficient training from scribble annotations. Extends to optical mapping of cardiac electrophysiology and to fairness auditing of cardiovascular imaging models.
 
-**2. Cardiomyocyte ageing.** Motion and nuclear phenotyping of cardiomyocytes from microscopy time-series, using optical flow and temporal transformers to detect functional decline before it is morphologically obvious.
+**2. Cancer imaging.** Vision–language and detection models for oncology imaging: melanoma and skin-lesion classification from dermoscopy (BCN20000, with cross-dataset validation on ISIC 2019), triple-negative breast cancer detection using YOLO-based models with hospital-cohort clinical validation, brain-tumour classification from MRI, and multivariable survival modelling in lung adenocarcinoma.
 
-**3. Explainability and clinical validation.** Post-hoc interpretability, algorithmic-bias auditing, and prospective validation of models against clinical endpoints — so that the output is defensible in a cardiology setting, not only accurate on a benchmark.
+**3. Cardiomyocyte ageing.** Motion and nuclear phenotyping of cardiomyocytes from microscopy time-series, using optical flow and temporal transformers to detect functional decline before it is morphologically obvious.
 
-Methodologically this means vision transformers, multimodal fusion (imaging + tabular + text), generative augmentation for small clinical cohorts, and survival/prognostic modelling.
+**4. Explainability and clinical validation.** Post-hoc interpretability, algorithmic-bias auditing, and prospective validation of models against clinical endpoints — so that the output is defensible in a clinical setting, not only accurate on a benchmark.
+
+Methodologically this means vision transformers, vision–language models, multimodal fusion (imaging + tabular + text), generative augmentation for small clinical cohorts, and survival/prognostic modelling.
+
+---
+
+## Imaging modalities
+
+Every modality below links to the repository where it is actually used, so the claim is checkable rather than asserted.
+
+| Modality | Domain | Where it is used |
+|:--|:--|:--|
+| Cardiac MRI (ACDC, MSCMRseg) | Cardiovascular imaging | [triFuse-pytorch](https://github.com/datascintist-abusufian/triFuse-pytorch) · [Cardiac-mri-scribble-segmentation](https://github.com/datascintist-abusufian/Cardiac-mri-scribble-segmentation) |
+| 3D echocardiography | Cardiovascular imaging | [Hypertrophic cardiomyopathy diagnosis](https://github.com/datascintist-abusufian/Enhancing-Hypertrophic-Cardiomyopathy-Diagnosis-with-Deep-Learning-Driven-3D-Echocardiogram-Analysis) · [3D-Heart-Imaging-apps](https://github.com/datascintist-abusufian/3D-Heart-Imaging-apps) |
+| Optical electrophysiology mapping | Cardiovascular imaging | [Advanced-Cardiac-Electrophysiology-Mapping-](https://github.com/datascintist-abusufian/Advanced-Cardiac-Electrophysiology-Mapping-) |
+| Dermoscopy | Cancer imaging | [Structured caption supervision for melanoma detection](https://github.com/datascintist-abusufian/Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-) |
+| Breast imaging and hospital cohort data | Cancer imaging | [Breast cancer diagnosis and prognosis](https://github.com/datascintist-abusufian/-Machine-Learning-Strategies-for-Breast-Cancer-Diagnosis-and-Prognosis) |
+| Brain MRI | Cancer imaging | [Neuro-App: 4D brain image processing and tumour classification](https://github.com/datascintist-abusufian/datascintist-abusufian-Neuro-App-AI-driven-4D-brain-image-processing-on-standalone-platforms) |
+| Thoracic X-ray | Pulmonary radiography | [Transformative insights in pulmonary radiography](https://github.com/datascintist-abusufian/Transformative-Insights-in-Pulmonary-Radiography-AI-Enabled-Innovations) |
+| Retinal OCT | Ophthalmic imaging | [Hypergraph fusion of OCT and functional data](https://github.com/datascintist-abusufian/High-Throughput-Multimodal-AI-Fusion-of-OCT-) |
+| Live-cell microscopy | Cardiomyocyte ageing | [Deep spatiotemporal modelling](https://github.com/datascintist-abusufian/Deep-Spatiotemporal-Modelling-of-Cardiomyocyte-Ageing-Dysfunction) · [Cell motion analysis](https://github.com/datascintist-abusufian/Cardiomyocyte-cell-motion-analysis) |
 
 ---
 
@@ -25,7 +45,9 @@ Methodologically this means vision transformers, multimodal fusion (imaging + ta
 |:--|:--|
 | <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1fac0.png" width="38" align="left" alt="cardiac"> **[triFuse-pytorch](https://github.com/datascintist-abusufian/triFuse-pytorch)** | **TriFuse-SRNet** — dynamic multi-expert fusion with structural recovery for *scribble-supervised* cardiac MRI segmentation. Reference PyTorch implementation, ACDC + MSCMRseg, with training, evaluation and statistical-comparison scripts. |
 | <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4ca.png" width="38" align="left" alt="dashboard"> **[medical-image-analysis](https://github.com/datascintist-abusufian/medical-image-analysis)** | Streamlit dashboard for segmentation-quality assessment — Dice, IoU, Hausdorff distance, uncertainty and regional performance. Used to audit the outputs of TriFuse-SRNet. |
-| <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f5bc.png" width="38" align="left" alt="vision-language"> **[Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-](https://github.com/datascintist-abusufian/Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-)** | Vision–language learning with structured clinical caption supervision — CLIP and BLIP fine-tuned on BCN20000, cross-dataset validation on ISIC 2019. |
+| <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f5bc.png" width="38" align="left" alt="dermoscopy"> **[Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-](https://github.com/datascintist-abusufian/Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-)** | **Cancer imaging.** Melanoma and skin-lesion classification from dermoscopy using vision–language learning with structured clinical caption supervision — CLIP and BLIP fine-tuned on BCN20000, cross-dataset validation on ISIC 2019, with Grad-CAM explanations and ablations. |
+| <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f397.png" width="38" align="left" alt="oncology"> **[Breast cancer diagnosis and prognosis](https://github.com/datascintist-abusufian/-Machine-Learning-Strategies-for-Breast-Cancer-Diagnosis-and-Prognosis)** | **Cancer imaging.** Triple-negative breast cancer detection and prognostic analysis — YOLO-based detection, shrinkage operators, sequence networks and Kamada-Kawai graph analysis, with a clinical validation phase on hospital trial data. |
+| <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f9e0.png" width="38" align="left" alt="brain"> **[Neuro-App](https://github.com/datascintist-abusufian/datascintist-abusufian-Neuro-App-AI-driven-4D-brain-image-processing-on-standalone-platforms)** | **Cancer imaging.** AI-driven 4D brain image processing and tumour classification from MRI, with GLCM/LBP texture metrics, sensitivity analysis under noise and blur, and 3D intensity visualisation. |
 | <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1fa7a.png" width="38" align="left" alt="clinical"> **[AI-Models-for-Early-Cardiovascular-Diseases-Detection-](https://github.com/datascintist-abusufian/AI-Models-for-Early-Cardiovascular-Diseases-Detection-)** | Early detection and mortality prediction in cardiovascular disease — the platform behind *Diagnostics* 14(12), 1308 (2024). |
 | <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/26a1.png" width="38" align="left" alt="electrophysiology"> **[Advanced-Cardiac-Electrophysiology-Mapping-](https://github.com/datascintist-abusufian/Advanced-Cardiac-Electrophysiology-Mapping-)** | Automated signal windowing and kriging-based spatial interpolation for optical mapping of cardiac electrophysiology — flecainide, low-flow ischaemia and cooling series. |
 | <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f52c.png" width="38" align="left" alt="microscopy"> **[Deep-Spatiotemporal-Modelling-of-Cardiomyocyte-Ageing-Dysfunction](https://github.com/datascintist-abusufian/Deep-Spatiotemporal-Modelling-of-Cardiomyocyte-Ageing-Dysfunction)** | Optical-flow–driven detection of cardiomyocyte ageing from microscopy video, with a Transformer over motion phenotypes. Presented at BSCR/BCS (*Heart*, 2025). |
@@ -48,7 +70,7 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUA
 ## Repositories by theme
 
 <details>
-<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1fac0.png" width="22" align="top"> <b>Cardiac imaging and segmentation</b></summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1fac0.png" width="22" align="top"> <b>Cardiovascular imaging and segmentation</b></summary>
 
 - [triFuse-pytorch](https://github.com/datascintist-abusufian/triFuse-pytorch) — TriFuse-SRNet, scribble-supervised segmentation (ACDC, MSCMRseg)
 - [Cardiac-mri-scribble-segmentation](https://github.com/datascintist-abusufian/Cardiac-mri-scribble-segmentation) — weakly supervised segmentation from scribble labels
@@ -57,6 +79,17 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUA
 - [Enhancing-Hypertrophic-Cardiomyopathy-Diagnosis-with-Deep-Learning-Driven-3D-Echocardiogram-Analysis](https://github.com/datascintist-abusufian/Enhancing-Hypertrophic-Cardiomyopathy-Diagnosis-with-Deep-Learning-Driven-3D-Echocardiogram-Analysis)
 - [Deep-Learning-Methods-for-Heart-Image-Analysis](https://github.com/datascintist-abusufian/Deep-Learning-Methods-for-Heart-Image-Analysis) — review and benchmarking
 - [AI-Models-for-Early-Cardiovascular-Diseases-Detection-](https://github.com/datascintist-abusufian/AI-Models-for-Early-Cardiovascular-Diseases-Detection-) — code for *Diagnostics* 14(12), 1308 (2024)
+
+</details>
+
+<details>
+<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f397.png" width="22" align="top"> <b>Cancer imaging and oncology</b></summary>
+
+- [Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-](https://github.com/datascintist-abusufian/Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-) — melanoma and skin-lesion classification from dermoscopy; CLIP and BLIP with structured clinical captions, BCN20000 with external validation on ISIC 2019
+- [-Machine-Learning-Strategies-for-Breast-Cancer-Diagnosis-and-Prognosis](https://github.com/datascintist-abusufian/-Machine-Learning-Strategies-for-Breast-Cancer-Diagnosis-and-Prognosis) — triple-negative breast cancer detection and prognosis; YOLO detection, shrinkage operators, sequence networks, hospital-cohort validation
+- [Neuro-App](https://github.com/datascintist-abusufian/datascintist-abusufian-Neuro-App-AI-driven-4D-brain-image-processing-on-standalone-platforms) — 4D brain image processing and tumour classification from MRI, with texture metrics and robustness analysis
+- [Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD](https://github.com/datascintist-abusufian/Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD) — survival modelling in lung adenocarcinoma
+- [Medical_research_sample_size_calculator-](https://github.com/datascintist-abusufian/Medical_research_sample_size_calculator-) — sample-size calculator for oncology, cardiology and epidemiology study design
 
 </details>
 
@@ -71,38 +104,36 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=8ozStcUA
 
 </details>
 
+
 <details>
 <summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f6e0.png" width="22" align="top"> <b>Research software and clinical tools</b></summary>
 
 - [Advanced-Cardiac-Electrophysiology-Mapping-](https://github.com/datascintist-abusufian/Advanced-Cardiac-Electrophysiology-Mapping-) — automated signal windowing, parallel processing
 - [CardioMap-Pro-2.0-Advancing-Cardiac-Research-with-Next-Gen-Analytical-Software](https://github.com/datascintist-abusufian/CardioMap-Pro-2.0-Advancing-Cardiac-Research-with-Next-Gen-Analytical-Software)
+- [medical-image-analysis](https://github.com/datascintist-abusufian/medical-image-analysis) — segmentation-quality dashboard (Dice, IoU, Hausdorff, uncertainty)
 - [Heart-Failure-Prediction-Calculator](https://github.com/datascintist-abusufian/Heart-Failure-Prediction-Calculator)
-- [Medical_research_sample_size_calculator-](https://github.com/datascintist-abusufian/Medical_research_sample_size_calculator-) — sample-size calculator for cardiology, oncology and epidemiology studies
-- [datascintist-abusufian-Neuro-App-AI-driven-4D-brain-image-processing-on-standalone-platforms](https://github.com/datascintist-abusufian/datascintist-abusufian-Neuro-App-AI-driven-4D-brain-image-processing-on-standalone-platforms)
+- [biohybrid-heart-valve](https://github.com/datascintist-abusufian/biohybrid-heart-valve) — design and performance dashboard for biohybrid valves
 
 </details>
 
 <details>
 <summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f50d.png" width="22" align="top"> <b>Explainability, multimodal and foundation models</b></summary>
 
-- [post-hoc-explainer](https://github.com/datascintist-abusufian/post-hoc-explainer) — Streamlit app for cardiovascular risk modelling with feature-importance, ROC and confusion-matrix diagnostics
-- [Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-](https://github.com/datascintist-abusufian/Structured-Caption-Supervision-for-Domain-Adaptive-Vision-Language-Learning-)
+- [post-hoc-explainer](https://github.com/datascintist-abusufian/post-hoc-explainer) — feature attribution and explanation of trained model inference
 - [High-Throughput-Multimodal-AI-Fusion-of-OCT-](https://github.com/datascintist-abusufian/High-Throughput-Multimodal-AI-Fusion-of-OCT-) — hypergraph fusion of OCT and functional data for glaucoma detection
-- [BioNeuralNet-Leiden](https://github.com/datascintist-abusufian/BioNeuralNet-Leiden) — graph-based multi-omics representation learning
-- [FinRAG](https://github.com/datascintist-abusufian/FinRAG) — retrieval-augmented generation over financial documents
+- [BioNeuralNet-Leiden](https://github.com/datascintist-abusufian/BioNeuralNet-Leiden) — graph-based multi-omics network analysis for biomarker discovery
+- [FinRAG](https://github.com/datascintist-abusufian/FinRAG) — retrieval-augmented generation over documents
 
 </details>
 
 <details>
-<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f9ec.png" width="22" align="top"> <b>Clinical prediction beyond cardiology</b></summary>
+<summary><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1fa7a.png" width="22" align="top"> <b>Clinical prediction in other domains</b></summary>
 
-- [Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD](https://github.com/datascintist-abusufian/Multivariable-Modelling-Reveals-EGFR-Copy-Number-as-an-Independent-Predictor-of-Survival-in-LUAD)
 - [TM-AHF-A-Text-Mining-a](https://github.com/datascintist-abusufian/TM-AHF-A-Text-Mining-a) — text mining plus vital signs for BNP/NT-proBNP-validated acute heart failure risk stratification
+- [Transformative-Insights-in-Pulmonary-Radiography-AI-Enabled-Innovations](https://github.com/datascintist-abusufian/Transformative-Insights-in-Pulmonary-Radiography-AI-Enabled-Innovations) — thoracic X-ray diagnostics
 - [Alzheimer-s-Disease-Prediction-Using-Handwriting-and-AI-Models-for-Cognitive-Assessment](https://github.com/datascintist-abusufian/Alzheimer-s-Disease-Prediction-Using-Handwriting-and-AI-Models-for-Cognitive-Assessment)
-- [Transformative-Insights-in-Pulmonary-Radiography-AI-Enabled-Innovations](https://github.com/datascintist-abusufian/Transformative-Insights-in-Pulmonary-Radiography-AI-Enabled-Innovations)
-- [-Machine-Learning-Strategies-for-Breast-Cancer-Diagnosis-and-Prognosis](https://github.com/datascintist-abusufian/-Machine-Learning-Strategies-for-Breast-Cancer-Diagnosis-and-Prognosis)
 - [Early-Pregnancy-Detection-and-prevention-using-Advanced-machine-learning-Algorithms](https://github.com/datascintist-abusufian/Early-Pregnancy-Detection-and-prevention-using-Advanced-machine-learning-Algorithms)
-- [Survival-Analysis](https://github.com/datascintist-abusufian/Survival-Analysis)
+- [Survival-Analysis](https://github.com/datascintist-abusufian/Survival-Analysis) — survival modelling with synthetic-data fidelity evaluation
 
 </details>
 
@@ -139,13 +170,13 @@ Kept for provenance; these predate the current research programme.
 - Hourly Paid Lecturer, University of East London — teaching and supervision of MSc and undergraduate projects
 - Dissertation supervisor, MSc Bioinformatics, Birkbeck, University of London
 - Editorial involvement, British Society of Cardiovascular Research
-- Open to collaboration on cardiac imaging, cardiomyocyte ageing and clinical validation of medical AI
+- Open to collaboration on cardiovascular imaging, cancer imaging, cardiomyocyte ageing and clinical validation of medical AI
 
 ## Toolbox
 
 Python · PyTorch · MONAI · scikit-learn · OpenCV · R · MATLAB · Streamlit · Docker · Git · LaTeX
 
-Imaging: cardiac MRI, 3D echocardiography, OCT, live-cell microscopy, histopathology
+Imaging: cardiac MRI, 3D echocardiography, dermoscopy, brain MRI, thoracic X-ray, retinal OCT, live-cell microscopy
 
 ## Contact
 
